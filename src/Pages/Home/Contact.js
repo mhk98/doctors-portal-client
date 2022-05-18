@@ -17,7 +17,7 @@ const Contact = () => {
             <input type="text" placeholder='Subject' className='input w-full max-w-md'/><br/>
             <textarea rows={6} placeholder='Your message' className='input w-full max-w-md '></textarea><br/>
             <PrimaryButton>Get Started</PrimaryButton>
-            {/* <button class="btn btn-primary mb-8 text-white">Get Started</button> */}
+            {/* <button  className="btn btn-primary mb-8 text-white">Get Started</button> */}
             </div>
             
         </div>

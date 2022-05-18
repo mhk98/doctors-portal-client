@@ -7,8 +7,8 @@ import { format } from 'date-fns';
 const AppointmentBanner = ({date, setDate}) => {
     // const[date, setDate] = useState(new Date());
     return (
-<div class="hero min-h-screen">
-  <div class="hero-content flex-col lg:flex-row-reverse">
+<div  className="hero min-h-screen">
+  <div  className="hero-content flex-col lg:flex-row-reverse">
     <img src={chair} alt='' height={355} width={594} />
     <div>
     <DayPicker
